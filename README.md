@@ -1,16 +1,44 @@
-# React + Vite
+✍️ InkFlow — Full-Stack Blogging Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+📖 About the Project
 
-Currently, two official plugins are available:
+InkFlow is a modern and responsive blogging platform developed to provide users with a seamless experience for creating, publishing, editing, and managing blog posts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Built with React.js and Appwrite Cloud, the application uses Backend as a Service (BaaS) to handle backend operations without requiring a separately developed server. It integrates cloud-based authentication and database services to support user accounts and blog content management.
 
-## React Compiler
+The project demonstrates practical implementation of component-based UI development, state management, and cloud backend integration to build a functional web application.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛠️ Tech Stack
 
-## Expanding the Oxlint configuration
+🎨 Frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React.js — Building a dynamic and component-based user interface.
+- JavaScript (ES6+) — Implementing application logic and interactivity.
+- HTML5 — Structuring the web application.
+- Tailwind CSS — Designing a responsive and modern user interface.
+
+🔄 State Management
+
+- Redux Toolkit — Managing application state efficiently.
+- React-Redux — Connecting React components with the Redux store.
+
+☁️ Backend as a Service (BaaS)
+
+- Appwrite Cloud — Providing managed backend infrastructure and cloud services.
+- Appwrite Authentication — Supporting user registration, login, and session management.
+- Appwrite Databases — Storing and managing blog posts and related data.
+- Appwrite Storage — Handling image and file uploads, if configured.
+
+⚙️ Development Tools
+
+- Vite — Providing a fast development server and production build tooling, if used.
+- npm — Managing project dependencies.
+- Git & GitHub — Version control and source code management.
+
+✨ Key Highlights
+
+- Component-based development using React.js.
+- Cloud-based backend integration with Appwrite.
+- Centralized state management using Redux Toolkit.
+- Responsive user interface.
+- User authentication and blog content management.
